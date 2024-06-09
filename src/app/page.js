@@ -1,7 +1,10 @@
+import Feed from "@/components/Feed";
 
 
 export default function page() {
   return (
-    <div>Home</div>
+    <>
+     <Feed />
+    </>
   )
 }
